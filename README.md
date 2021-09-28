@@ -1,5 +1,5 @@
 # dimi-start-2021
-Projet de démarrage dimi
+Projet de démarrage dimi.
 
 ## pré-requis
 - git
