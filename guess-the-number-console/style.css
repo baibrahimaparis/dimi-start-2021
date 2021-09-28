@@ -1,15 +1,33 @@
-body, body* { margin: 0
-    ;
+body, body* {
+     margin: 0;
     box-sizing: border-box;
-position: relative;
+    position: relative;
+
 }
 
-.flex-center{display: flex;
+.flex-center{
+display: flex;
+flex-direction: column;
 justify-content:center;
-align-items: center;}
+align-items: center;
+}
 
 
 
 
 body{background-color: lightgoldenrodyellow;
-min-height: 100vh;}
+min-height: 100vh;
+text-align: center;
+}
+h1{
+    font-size: 96px;
+}  
+p span{ 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    background-color: rgb(158, 48, 4);
+    border: linen;
+    border: solid 2px white;
+    border-radius: 16px;
+    padding: 16px;
+}
